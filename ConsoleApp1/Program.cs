@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -9,9 +10,10 @@ namespace linq
 {
 	internal class Program
 	{
+		List<Kolcsonzes> kolcsonzesek=new List<Kolcsonzes>();
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			
 		}
 	}
 }
